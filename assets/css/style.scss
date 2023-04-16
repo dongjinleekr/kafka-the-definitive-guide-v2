@@ -1,0 +1,11 @@
+---
+---
+
+// see: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
+@import "{{ site.theme }}";
+
+// see: https://dev.to/deammer/embed-responsive-youtube-videos-in-2021-5dkh
+.video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}

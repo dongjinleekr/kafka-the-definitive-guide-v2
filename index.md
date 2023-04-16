@@ -6,7 +6,7 @@
 
 Deview 2023 동영상이 공개되었습니다. 들어주신 모든 분들께 감사드립니다. 🙏️
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/OxMdru93E6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="640" height="360" class="video" src="https://www.youtube.com/embed/OxMdru93E6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/72da0a91e9d846298ba7ac330df48e80" title="Kafka Consumers at Naver" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 314;" data-ratio="1.78343949044586"></iframe>
 
@@ -28,7 +28,7 @@ Deview 2023 동영상이 공개되었습니다. 들어주신 모든 분들께 �
 
 아래는 위 발표에서 다루고 있는 내용의 일부(데이터 파이프라인)를 좀 더 자세하게 다루고 있는 2016년 InfoQ 컨퍼런스의 세션입니다. 발표자는 아파치 카프카의 창시자 중 한 사람인 네하 나크헤데입니다. (관련 내용: 제 1장, '카프카 시작하기' 1쪽 ~ 4쪽, 제 9장, '데이터 파이프라인 구축하기' 227쪽 ~ 258쪽)
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/I32hmY4diFY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="640" height="360" class="video" src="https://www.youtube.com/embed/I32hmY4diFY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Log Management in Apache Kafka (2023.02.06)
 
@@ -40,7 +40,7 @@ Deview 2023 동영상이 공개되었습니다. 들어주신 모든 분들께 �
 
 2022년 4월 14일, Kafka 한국 사용자 모임 Virtual Meetup 에서 발표했던 KRAft 모드에 대한 소개입니다. (관련 내용: 제 6장, '카프카 내부 매커니즘' 152쪽 ~ 158쪽)
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/UYkWzY4NUdA?start=5760" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="640" height="360" class="video" src="https://www.youtube.com/embed/UYkWzY4NUdA?start=5760" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/e1c31c2ad2e24d9398176788b57f693f" title="Introducing KRaft: Kafka without Zookeeper" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" data-ratio="1.7777777777777777"></iframe>
 
