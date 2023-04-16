@@ -1,6 +1,15 @@
+# 예약 판매 시작 (2023.04.12)
+
+예약 판매가 시작되었습니다.
+
+ - [알라딘](https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=K102832629)
+ - [영풍문고](https://www.ypbooks.co.kr/book.yp?bookcd=101231791)
+ - [교보문고](https://product.kyobobook.co.kr/detail/S000201464167)
+ - [yes24](http://www.yes24.com/Product/Goods/118397432)
+
 # Deview 2023 Day 1 인기 세션 Top 3 선정 (2023.03.17)
 
-[DEVIEW 2023 인기세션 Top 3 (네이버 D2)](https://d2.naver.com/news/7503274)
+- [DEVIEW 2023 인기세션 Top 3 (네이버 D2)](https://d2.naver.com/news/7503274)
 
 # Deview 2023 동영상 공개 (2023.03.16)
 
