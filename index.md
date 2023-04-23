@@ -1,5 +1,7 @@
 ## 예약 판매 시작 (2023.04.12)
 
+![](/images/kafka-2nd-ko-cover.jpg)
+
 예약 판매가 시작되었습니다.
 
  - [알라딘](https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=K102832629)
