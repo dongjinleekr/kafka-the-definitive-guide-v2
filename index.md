@@ -1,3 +1,6 @@
+- [예제 코드](/kafka-the-definitive-guide-v2/example)
+- [오탈자 목록](/kafka-the-definitive-guide-v2/errata)
+
 ## 예약 판매 시작 (2023.04.12)
 
 ![](/images/kafka-2nd-ko-cover.jpg)
