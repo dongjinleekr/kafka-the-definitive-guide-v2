@@ -1,5 +1,6 @@
 title: "카프카 핵심 가이드 (개정증보판)"
 description: "『카프카 핵심 가이드: 대규모  실시간 데이터와 스트림 처리』 개정증보판 공식 페이지입니다."
+baseurl: /kafka-the-definitive-guide-v2
 markdown: kramdown
 show_downloads: false
 remote_theme: pages-themes/slate@v0.2.0
