@@ -4,6 +4,20 @@
 // see: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
 @import "{{ site.theme }}";
 
+// see: https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/
+// see: https://stackoverflow.com/questions/48246538/wider-body-in-a-github-pages-site
+@media (max-width: 768px) {
+  .inner {
+    max-width: 75%;
+  }
+}
+
+@media (min-width: 768px) {
+  .inner {
+    max-width: 768px;
+  }
+}
+
 // see: https://dev.to/deammer/embed-responsive-youtube-videos-in-2021-5dkh
 .video {
   aspect-ratio: 16 / 9;
