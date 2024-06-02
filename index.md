@@ -34,7 +34,7 @@ Deview 2023 동영상이 공개되었습니다. 들어주신 모든 분들께 �
 
 - [네이버 스케일로 카프카 컨슈머 사용하기](https://deview.kr/2023/sessions/577)
 
-네이버 데뷰 2023에 참여합니다. 네이버에서 카프카 컨슈머를 사용하는 방법, 좀 더 정확히는 파티션 리밸런스를 최적화한 방법에 대해 설명합니다. (관련 내용: 제 4장, '카프카 컨슈머: 카프카에서 데이터 읽기', 83쪽 ~ 90쪽)
+네이버 데뷰 2023에 참여합니다. 네이버에서 카프카 컨슈머를 사용하는 방법, 좀 더 정확히는 파티션 리밸런스를 최적화한 방법에 대해 설명합니다. (관련 내용: 4.1, '카프카 컨슈머: 개념', 83쪽 ~ 90쪽)
 
 ## Event Streaming Rises (2023.02.10)
 
@@ -52,13 +52,13 @@ Deview 2023 동영상이 공개되었습니다. 들어주신 모든 분들께 �
 
 ## Log Management in Apache Kafka (2023.02.06)
 
-2020년 11월 19일, Kafka 한국 사용자 모임 Virtual Meetup 에서 발표했던 동적 log 관리 기능에 대한 소개입니다. (관련 내용: 제 11장, '보안' 335쪽, 제 12장, '카프카 운영하기' 335쪽 ~ 358쪽)
+2020년 11월 19일, Kafka 한국 사용자 모임 Virtual Meetup 에서 발표했던 동적 log 관리 기능에 대한 소개입니다. (관련 내용: 11.6, '감사', 335쪽, 12.3.2, '클라이언트와 사용자 설정 기본값 재정의하기', 355쪽 ~ 358쪽)
 
 <iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/201de9be12c4423f9f98337bd79ddbda" title="Log Management in Apache Kafka" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 314;" data-ratio="1.78343949044586"></iframe>
 
 ## Introducing KRaft: Kafka without Zookeeper (2023.02.01)
 
-2022년 4월 14일, Kafka 한국 사용자 모임 Virtual Meetup 에서 발표했던 KRAft 모드에 대한 소개입니다. (관련 내용: 제 6장, '카프카 내부 매커니즘' 152쪽 ~ 158쪽)
+2022년 4월 14일, Kafka 한국 사용자 모임 Virtual Meetup 에서 발표했던 KRaft 모드에 대한 소개입니다. (관련 내용: 6.2.1, 'KRaft: 카프카의 새로운 래프트 기반 컨트롤러', 152쪽 ~ 158쪽)
 
 <iframe width="640" height="360" class="video" src="https://www.youtube.com/embed/UYkWzY4NUdA?start=5760" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
