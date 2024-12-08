@@ -8,3 +8,21 @@
 |21|<ins>cp</ins> `> /usr/local/zookeeper/conf/zoo.cfg << EOF`|<ins>cat</ins> `> /usr/local/zookeeper/conf/zoo.cfg << EOF`|
 |22|주키퍼가 사용하는 <ins>부하 부산 알고리즘</ins> 때문에 앙상블은 홀수 개의 서버(예: 3개, 5개, ...)를 가지는 것이 권장된다.|주키퍼가 사용하는 <ins>부하 분산 알고리즘</ins> 때문에 앙상블은 홀수 개의 서버(예: 3개, 5개, ...)를 가지는 것이 권장된다.|
 |23|<ins>정 파일</ins>의 모든 호스트명을 `localhost`로 지정하고 모든 `peerPort`, `leaderPort`에 서로 다른 포트를 할당함으로써|<ins>설정 파일</ins>의 모든 호스트명을 `localhost`로 지정하고 모든 `peerPort`, `leaderPort`에 서로 다른 포트를 할당함으로써|
+|49|파티셔너<ins>과</ins>|파티셔너<ins>와</ins>|
+|70|직렬화된 데이터를 객체로 객체로 복원하는 <ins>디시얼</ins>라이저(deserializer)|직렬화된 데이터를 객체로 객체로 복원하는 <ins>디시리얼</ins>라이저(deserializer)|
+|71|`Customer` 객체를 인수<ins>를</ins>|`Customer` 객체를 인수<ins>로</ins>|
+|83|애플리케이션을 구현하기 위해 <ins>커슈머</ins> API가 어떻게 활용되는지를|애플리케이션을 구현하기 위해 <ins>컨슈머</ins> API가 어떻게 활용되는지를|
+|109|<ins>`ConsumerRebalance`</ins>에는 다음과 같이 3개의 메서드를 구현할 수 있다.|<ins>`ConsumerRebalanceListener`</ins>에는 다음과 같이 3개의 메서드를 구현할 수 있다.|
+|122|`consumer.assign(partitions);`|(예제 코드 내의 메소드 호출이 중복 인쇄되었음)|
+|125|아파치 카프카 버전 0.11 이전까지는 명령줄 프로그램으로만 <ins>가능했던 관리 기능이 가능했지만</ins>, ...|아파치 카프카 버전 0.11 이전까지는 명령줄 프로그램을 사용해서만 <ins>관리 기능을 사용할 수 있었지만</ins>, ...|
+|130|<ins>`topics.name()`</ins>는 토픽 이름의 집합에 대한 ...|<ins>`topics.names()`</ins>는 토픽 이름의 집합에 대한 ...|
+|132|`admin.\`<br />`  deleteTopics(TOPIC_LIST).\`<br />`  all().get();`|(토픽 삭제 코드는 누락되고 삭제를 확인하는 부분만 있음.)|
+|137|<ins>`description`</ins>은 해당 그룹에 대한 상세한 정보를 담는다.|<ins>`groupDescription`</ins>은 해당 그룹에 대한 상세한 정보를 담는다.|
+|152|요약하자면, <ins>컨트롤러는 브로커가 클러스터에 추가되거나 제거될 때</ins> 파티션과 레플리카 중에서 리더를 선출할 책임을 진다.|요약하자면, <ins>카프카는 컨트롤러를 선출하고 브로커가 클러스터에 들어오거나 나갈 때 컨트롤러에 알려 주기 위해 주키퍼의 Ephemeral 노드 기능을 사용한다. 컨트롤러는 브로커가 클러스터에 들어오거나 나갈 때</ins> 파티션과 레플리카 중에서 리더를 선출할 책임을 진다.|
+|155|Bridge Release|브리지 릴리스|
+|155|Pre-KRaft:|KRaft 이전:|
+|156|Post-KRaft:|KRaft 이후:|
+|232|보안(Security)<ins>는</ins>|보안(Security)<ins>은</ins>|
+|265|또 다른 장점은 데이터 중복(redundancy)<ins>와</ins> ...|또 다른 장점은 데이터 중복(redundancy)<ins>과</ins> ...|
+|276|복제 흐름(replication flow)<ins>는</ins>|복제 흐름(replication flow)<ins>은</ins>|
+
