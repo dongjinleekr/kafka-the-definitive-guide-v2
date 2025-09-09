@@ -18,6 +18,15 @@
   }
 }
 
+#header_wrap a {
+  color: #ffffff;
+}
+
+#header_wrap a:hover {
+  color: #c2bebb;
+  text-decoration: none;
+}
+
 // see: https://dev.to/deammer/embed-responsive-youtube-videos-in-2021-5dkh
 .video {
   aspect-ratio: 16 / 9;
