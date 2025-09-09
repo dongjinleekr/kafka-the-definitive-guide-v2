@@ -35,3 +35,11 @@ table {
   width:100%;
 }
 
+table th {
+  text-align: center;
+}
+
+table th:first-child {
+  width: 3em;
+}
+
