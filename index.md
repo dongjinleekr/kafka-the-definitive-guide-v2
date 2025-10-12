@@ -1,5 +1,5 @@
 - [예제 코드]({{ site.baseurl }}/example/)
-- [오탈자 목록]({{ site.baseurl }}/errata/)
+- [오탈자 목록 (최종 업데이트: 2025년 10월 12일)]({{ site.baseurl }}/errata/)
 
 ## Kafka 생태계에서 Protobuf 사용하기 (2024.05.22)
 
