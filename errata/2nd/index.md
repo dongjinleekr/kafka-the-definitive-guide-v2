@@ -11,6 +11,7 @@
 |49|파티셔너<ins>과</ins>|파티셔너<ins>와</ins>|
 |70|직렬화된 데이터를 객체로 객체로 복원하는 <ins>디시얼</ins>라이저(deserializer)|직렬화된 데이터를 객체로 객체로 복원하는 <ins>디시리얼</ins>라이저(deserializer)|
 |71|`Customer` 객체를 인수<ins>를</ins>|`Customer` 객체를 인수<ins>로</ins>|
+|73|아파치 카프카 2.4 프로듀서부터 <ins>기본 파티셔너는 키값이 null인 경우, 접착성 처리를 하기 위해 라운드 로빈 알고리즘을 사용한다.</ins>|아파치 카프카 2.4 프로듀서부터, <ins>기본 파티셔너가 키값이 null인 경우를 처리할 때 사용하는 라운드 로빈 알고리즘은 접착성을 가진다.</ins>|
 |83|애플리케이션을 구현하기 위해 <ins>커슈머</ins> API가 어떻게 활용되는지를|애플리케이션을 구현하기 위해 <ins>컨슈머</ins> API가 어떻게 활용되는지를|
 |109|<ins>`ConsumerRebalance`</ins>에는 다음과 같이 3개의 메서드를 구현할 수 있다.|<ins>`ConsumerRebalanceListener`</ins>에는 다음과 같이 3개의 메서드를 구현할 수 있다.|
 |122|`consumer.assign(partitions);`|(예제 코드 내의 메소드 호출이 중복 인쇄되었음)|
