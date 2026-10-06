@@ -1,0 +1,30 @@
+{% assign updates = include.updates | sort: "date" | reverse %}
+<section class="homepage-section" aria-labelledby="{{ include.section_id }}-title">
+  <h2 id="{{ include.section_id }}-title" class="homepage-section__title">{{ include.title }}</h2>
+  {% if updates.size > 0 %}
+    {% assign latest = updates | first %}
+    {% assign latest_summary = latest.summary | default: latest.excerpt %}
+    <a class="update-feature" href="{{ latest.url | relative_url }}">
+      <time class="update-feature__date" datetime="{{ latest.date | date_to_xmlschema }}">{{ latest.date | date: "%Y.%m.%d" }}</time>
+      <span class="update-feature__title">{{ latest.title }}</span>
+      <span class="update-feature__summary">{{ latest_summary | strip_html | strip_newlines | truncate: 140 }}</span>
+    </a>
+    {% if updates.size > 1 %}
+      <ul class="update-list">
+        {% for update in updates offset: 1 limit: 4 %}
+          <li>
+            <a class="update-list__link" href="{{ update.url | relative_url }}">
+              <time class="update-list__date" datetime="{{ update.date | date_to_xmlschema }}">{{ update.date | date: "%Y.%m.%d" }}</time>
+              <span class="update-list__title">{{ update.title }}</span>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+    {% if updates.size > 5 %}
+      <a class="update-more" href="{{ include.archive_url | relative_url }}">전체 보기</a>
+    {% endif %}
+  {% else %}
+    <p class="homepage-section__empty">{{ include.empty_text }}</p>
+  {% endif %}
+</section>

@@ -1,8 +1,33 @@
 title: "카프카 핵심 가이드 (개정증보판)"
-description: "『카프카 핵심 가이드: 대규모  실시간 데이터와 스트림 처리』 개정증보판 공식 페이지입니다."
+description: "『카프카 핵심 가이드: 대규모 실시간 데이터와 스트림 처리』 개정증보판 공식 페이지입니다."
+lang: ko-KR
+url: https://dongjinleekr.github.io
 baseurl: /kafka-the-definitive-guide-v2
 markdown: kramdown
 show_downloads: false
 remote_theme: pages-themes/slate@v0.2.0
+repository: dongjinleekr/kafka-the-definitive-guide-v2
 plugins:
 - jekyll-remote-theme
+defaults:
+- scope:
+    path: ""
+  values:
+    image:
+      path: /images/preview.png
+      alt: "카프카 핵심 가이드 개정증보판"
+- scope:
+    path: ""
+    type: posts
+  values:
+    layout: default
+exclude:
+- CLAUDE.md
+- Gemfile
+- Gemfile.lock
+- README.md
+- vendor
+- .bundle
+- spec
+- reqirements.md
+- worklog.md

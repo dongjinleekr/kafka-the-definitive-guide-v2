@@ -1,0 +1,39 @@
+# Worklog
+
+- [sol] 20261005 - Iceberg 구조 테마 이식과 업데이트 게시물 마이그레이션
+  - Iceberg 사이트의 Slate shell, 도서 카드, 업데이트 카드·목록·archive, 연관 서적 grid를 Kafka에 이식하고 기존 홈페이지 업데이트 9개를 내부 게시물로 이전했다.
+  - 결정 1: 구조와 반응형 동작은 Iceberg와 맞추고 Kafka의 accent만 Crimson Wine `#9F1239`, hover `#7F0E2E`, 제목 hover `#F1C6D3`로 분리한다.
+    - 근거 1: 두 도서 사이트의 사용 경험을 통일하면서 표지와 사이트 정체성은 색상으로 구분하기 위해서다.
+  - 결정 2: 9개 업데이트를 모두 `_posts`에 저장하고 `update_type: topic|other`로 6개와 3개를 분류한다.
+    - 근거 2: 단일 콘텐츠 원장을 유지하면서 홈페이지와 두 archive를 독립적으로 필터링하기 위해서다.
+  - 결정 3: 게시물마다 `/topic-updates/...` 또는 `/other-updates/...` permalink를 명시하고 모든 글을 내부 상세 페이지로 연결한다.
+    - 근거 3: Iceberg의 섹션별 URL 구조를 유지하면서 `_related_posts` collection과 외부 링크 분기를 도입하지 않기 위해서다.
+  - 기타
+    - 기존 본문, 링크, 인용문, 이미지, Speaker Deck 5개와 YouTube 3개를 게시물에 보존했다.
+    - Kafka 전용 example 경로, 다중 정오표, 표·code·embed 반응형 규칙을 유지했다.
+    - Jekyll build, 생성 route·DOM·콘텐츠 assertion, Firefox 1280px·800px·390px 렌더링을 통과했다.
+    - errata 3개와 example 파일 checksum은 작업 전과 동일하다.
+    - feature-dev 품질 리뷰와 cross-review에서 blocking finding은 없었다.
+    - `CLAUDE.md`의 `_posts` non-goal과 `spec/color-palette.md`의 옛 변수명은 사용자 선택에 따라 이번 범위에서 수정하지 않았다.
+    - commit, push, branch history 변경은 수행하지 않았다.
+- [gpt] 20260805 - Kafka 도서 사이트 공통 디자인 현대화
+  - 기존 미커밋 홈페이지 개편을 보존하면서 Slate shell, CTA 계층, 반응형 레이아웃, 접근성, Iceberg 사이트 연결을 완성했다.
+  - 결정 1: Iceberg와 동일한 layout, SCSS, 홈페이지 DOM 계약을 유지하고 책별 색상과 콘텐츠만 분리한다.
+    - 근거 1: 두 사이트의 연속성과 독립적인 GitHub Pages 배포를 동시에 유지하기 위해서다.
+  - 결정 2: Kafka의 Crimson Wine accent와 더 어두운 hover 색을 사용한다.
+    - 근거 2: Iceberg와 구분하면서 밝은 배경의 링크와 버튼 대비를 유지하기 위해서다.
+  - 결정 3: 기존 errata, example, baseurl, table 규칙은 보존한다.
+    - 근거 3: 홈페이지 외 기존 페이지의 동작과 긴 정오표 표시를 회귀시키지 않기 위해서다.
+  - 기타
+    - `bundle exec jekyll build` 성공. example 및 모든 errata 경로와 생성 metadata를 확인했다.
+    - cross-review 1회에서 blocking finding 없음. 브라우저 렌더링 검증은 미실행.
+    - 커밋하지 않음.
+- [sol] 20261004 - 공통 첫 화면 정리, 기존 업데이트 유지
+  - 헤더를 줄이고 구입처 버튼을 복원했다. 영풍문고 링크를 다시 넣었다.
+  - 결정 1: 기존 업데이트 본문과 삽입 자료를 삭제하지 않고 카드 아래에 둔다.
+    - 근거 1: 제목만 남기면 Speaker Deck과 YouTube가 사라진다.
+  - 결정 2: `main`에만 있는 2025-11-04 정오표 수정은 작업 트리에 반영하되 커밋하지 않는다.
+    - 근거 2: `theme`가 그 커밋보다 뒤처져 있어, 이 상태로 나중에 배포하면 정오표가 되돌아간다.
+  - 기타
+    - 커밋하지 않음.
+    - 정정: 영풍문고 링크는 내용 추가였다. 구입처 버튼과 2023-04-12 업데이트 목록에서 뺐다.
