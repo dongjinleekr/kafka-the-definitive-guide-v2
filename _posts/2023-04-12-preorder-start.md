@@ -1,7 +1,7 @@
 ---
 title: "예약 판매 시작"
 date: 2023-04-12
-update_type: other
+update_type: topic
 summary: "카프카 핵심 가이드 개정증보판의 예약 판매가 시작되었습니다."
 permalink: /other-updates/2023/04/12/preorder-start/
 ---
